@@ -1,0 +1,76 @@
+.merchantplus-wrap { clear: both; margin: 0px auto; max-width: 1024px; min-width: 930px; overflow: hidden; }
+
+.merchantplus-header { clear: both; margin-bottom: 25px; padding-top: 15px; overflow: hidden; }
+.merchantplus-header img.merchantplus-logo { float: left; margin: 0px 50px 0px 0px; }
+.merchantplus-header span.merchantplus-intro { border-left: #A7A8AB solid 1px; color: #00A9E0; display: block; float: left; font-size: 24px; height: 55px; line-height: 24px; margin: 0px; padding: 10px 0px 0px 50px; }
+.merchantplus-header a.merchantplus-create-btn { background-color: #00A9E0; color: #FFF; display: inline-block; float: right; font-size: 16px; font-weight: bold; height: 35px; line-height: 33px; margin: 18px 0px 0px 0px; padding: 0px 15px; }
+.merchantplus-header a.merchantplus-create-btn:hover { background-color: #0099E0; }
+
+.merchantplus-content { border: #A7A8AB solid 1px; clear: both; margin: 0px 0px 10px 0px; overflow: hidden; padding: 15px; }
+.merchantplus-content h3 { color: #00A9E0; font-size: 22px; font-weight: normal; line-height: 22px; margin: 0px 0px 15px 0px; padding: 0px; }
+.merchantplus-content h3 sup { font-size: 12px; vertical-align: super; }
+.merchantplus-content h3 strong { color: #CC0000; vertical-align: text-top; }
+.merchantplus-content p, .merchantplus-content ul li { color: #535353; font-size: 14px; line-height: 22px; margin: 0px; padding: 0px; }
+.merchantplus-content a.merchantplus-btn { background-color: #CCC; color: #008CDD; display: inline-block; margin: 7px 0px; padding-left: 8px; text-decoration: none; }
+.merchantplus-content a.merchantplus-btn:hover { background-color: #666; text-decoration: underline; }
+.merchantplus-content ul { list-style: none; margin: 0px 0px 15px 0px; padding: 0px; }
+.merchantplus-content ul li { background: url(../img/bullet.png) 2px 7px no-repeat; margin: 0px; padding: 0px 0px 0px 15px; }
+.merchantplus-content p.merchantplus-note { color: #7F7F7F; font-size: 1em; font-style: italic; line-height: 1.2em; margin-bottom: 10px; }
+.merchantplus-content p.merchantplus-note sup { font-size: 0.8em; vertical-align: super; }
+
+.merchantplus-full { border-top: #A7A8AB solid 1px; clear: both; overflow: hidden; padding-top: 15px; }
+.merchantplus-full p { color: #00A9E0; font-size: 16px; line-height: 20px; padding: 0px 0px 0px 410px; }
+img.merchantplus-cc { float: left; margin: 0px 0px 0px -410px; }
+ 
+/* #merchantplus-configuration fieldset { background-image: url(../img/sep.png); background-position: center top; background-repeat: repeat-y; } */
+#merchantplus-configuration input.text { width: 90%; }
+
+.merchantplus-wrap fieldset { overflow: hidden }
+.merchantplus-wrap .MB10 { margin-bottom: 10px; }
+.merchantplus-wrap .L { float: left; }
+.merchantplus-wrap .R { float: right; }
+.merchantplus-wrap fieldset p { text-shadow: 0px 1px 0px #FFFFFF; }
+
+fieldset h4 { margin-top: 0px; }
+fieldset span.small { color: #7F7F7F; }
+div.merchantplus-half { width: 48%; }
+div.merchantplus-half ol { color: #585A69; font-size: 0.85em; font-weight: bold; list-style-type: decimal; margin: 0px; overflow: hidden; padding: 0px 0px 0px 25px; }
+div.merchantplus-half ol li { margin: 0px 0px 8px 0px; padding: 0px; }
+div.merchantplus-half ol li p { color: #7F7F7F; font-size: inherit; font-weight: normal; margin: 0px; padding: 0px; }
+div.merchantplus-half ol li p a, a.merchantplus-credentials-link { color: #268CCD; text-decoration: underline; }
+a.merchantplus-credentials-link { font-size: 12px; }
+div.merchantplus-half ol li p a:hover, a.merchantplus-credentials-link:hover { text-decoration: none; }
+
+/* Forn-office styles */
+div.payment_module { padding-bottom: 20px; text-transform: none; }
+div.payment_module .merchantplus-logo { clear: both; float: none; margin-bottom: 20px; }
+.payment_module #merchantplus_form img { float: none; }
+.block-left { display: inline-block; float: left; margin-right: 20px; }
+#merchantplus_form label { display: inline-block; margin-bottom: 4px; text-transform: uppercase; }
+#merchantplus_form input[type="text"], #merchantplus_form select { border: #CCCCCC solid 1px; margin: 0px 0px 15px 0px; padding: 3px; }
+#merchantplus_form a { display: inline; position: relative; }
+#merchantplus_form img.cc-merchantplus-icon { border: #CCCCCC solid 1px; float: left; margin-right: 5px; }
+#merchantplus_form img.cc-merchantplus-disable { opacity: 0.3; }
+#merchantplus_form img.cc-merchantplus-enable { opacity: 1; }
+a.merchantplus-card-cvc-info { cursor: default; font-style: italic; margin-left: 5px; }
+img#merchantplus_cvv_help { margin-right: 4px; vertical-align: text-bottom; }
+a.merchantplus-card-cvc-info div.cvc-info {
+	background-color: #BDE5F8;
+	border: #00529B solid 1px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #00529B!important;
+	display: none;
+	font-style: normal;
+	padding: 8px;
+	position: absolute;
+	right: -320px; top: -85px;
+	text-decoration: none;
+}
+a.merchantplus-card-cvc-info:hover { background-color: none; }
+a.merchantplus-card-cvc-info:hover div.cvc-info { display: block; z-index: 10; }
+div.cvc-info:hover { cursor: default; }
+#merchantplus_cvv_help_img { display: block; margin: 0px; }
+#merchantplus_form .button { float: left; margin-right: 20px; }
+#merchantplus_submitload { float: left; margin-top: 2px; }
