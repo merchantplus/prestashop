@@ -20,7 +20,7 @@
 		<fieldset class="merchantplus-half L">
 			<legend><img src="{$module_dir}img/icon-config.gif" alt="" />{l s='Configuration' mod='merchantplus'}</legend>
 			<div>
-				<p class="MB10">{l s='In order to use this module, please fill out the form with the credentials provided to you by Merchant Plus Gateway' mod='merchantplus'}</p>
+				<p class="MB10">{l s='In order to use this module, please fill out the form with the credentials provided to you by MerchantPlus Gateway' mod='merchantplus'}</p>
 				
 				<label for="merchantplus_key_id">{l s='Login ID:' mod='merchantplus'}</label>
 				<div class="margin-form">
@@ -55,7 +55,7 @@
 			</div>
 			<!---
 			<div class="merchantplus-half R">
-				<h4>{l s='How to get your Merchant Plus credentials?' mod='merchantplus'}</h4>
+				<h4>{l s='How to get your MerchantPlus credentials?' mod='merchantplus'}</h4>
 				<ol>
 					<li><p>{l s='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.' mod='merchantplus'}</a></p></li>					
 					<li><p>{l s='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.' mod='merchantplus'}</a></p></li>					

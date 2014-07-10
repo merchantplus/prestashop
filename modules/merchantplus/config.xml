@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>merchantplus</name>
-	<displayName><![CDATA[Merchant Plus Gateway]]></displayName>
+	<displayName><![CDATA[MerchantPlus]]></displayName>
 	<version><![CDATA[1.1]]></version>
-	<description><![CDATA[Receive payment with Merchant Plus Gateway]]></description>
-	<author><![CDATA[Montazze Studio]]></author>
+	<description><![CDATA[Receive payment with MerchantPlus Gateway]]></description>
+	<author><![CDATA[MerchantPlus]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>
 	<is_configurable>1</is_configurable>
 	<need_instance>1</need_instance>

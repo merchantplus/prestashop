@@ -16,12 +16,12 @@ class MerchantPlus extends PaymentModule{
 		$this->name = 'merchantplus';
 		$this->tab = 'payments_gateways';
 		$this->version = '1.1';
-		$this->author = 'Montazze Studio';
+		$this->author = 'MerchantPlus';
 
 		parent::__construct();
 		
-		$this->displayName = $this->l('Merchant Plus Gateway');
-		$this->description = $this->l('Receive payment with Merchant Plus Gateway');
+		$this->displayName = $this->l('MerchantPlus');
+		$this->description = $this->l('Receive payment with MerchantPlus Gateway');
 
 		
 		/* Backward compatibility */

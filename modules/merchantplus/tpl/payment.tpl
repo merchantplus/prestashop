@@ -4,7 +4,7 @@
 <div class="payment_module" style="border: 1px solid #595A5E;display: block;padding: 0.6em;text-decoration: none;margin-left: 0.7em;">
 	<img src="{$module_dir}img/logo-merchantplus.png" class="merchantplus-logo" alt="First Data" />
 	<h3 class="stripe_title">
-		<img alt="" src="{$module_dir}img/secure-icon.png" /> {l s='Secure payment by credit card with Merchant Plus' mod='merchantplus'}
+		<img alt="" src="{$module_dir}img/secure-icon.png" /> {l s='Secure payment by credit card with MerchantPlus' mod='merchantplus'}
 	</h3>
 	<form action="{$module_dir}validation.php" method="post" name="merchantplus_form" id="merchantplus_form">
 		<div id="merchantplusFrame">
